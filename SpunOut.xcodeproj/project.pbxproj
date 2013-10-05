@@ -59,7 +59,7 @@
 		8B7C1C571800533A006A127D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B7C1C591800533A006A127D /* SpunOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpunOutTests.m; sourceTree = "<group>"; };
 		8B7C1C63180054BA006A127D /* SOHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		8B7C1C64180054BA006A127D /* SOHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOHTTPRequestOperationManager.m; sourceTree = "<group>"; usesTabs = 1; };
+		8B7C1C64180054BA006A127D /* SOHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOHTTPRequestOperationManager.m; sourceTree = "<group>"; };
 		8BA394E618005CCE00F7DEE5 /* SOServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOServicesViewController.h; sourceTree = "<group>"; };
 		8BA394E718005CCE00F7DEE5 /* SOServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOServicesViewController.m; sourceTree = "<group>"; };
 		8BA394E918005E0400F7DEE5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };

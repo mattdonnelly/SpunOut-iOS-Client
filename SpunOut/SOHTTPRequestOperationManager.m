@@ -40,7 +40,7 @@
 
 + (instancetype)manager
 {
-	static SOHTTPRequestOperationManager *sharedInstance;
+    static SOHTTPRequestOperationManager *sharedInstance;
 
     static dispatch_once_t once;
     dispatch_once(&once, ^ {
@@ -141,9 +141,9 @@
 }
 
 - (void)getServicesNearLatitude:(double)lat
-                   longitude:(double)lon
-                     success:(SOHTTPRequestSuccess)success
-                     failure:(SOHTTPRequestFailure)failure
+                      longitude:(double)lon
+                        success:(SOHTTPRequestSuccess)success
+                        failure:(SOHTTPRequestFailure)failure
 {
     [self GET:@"nearme"
    parameters:@{@"latitude": @(lat),
