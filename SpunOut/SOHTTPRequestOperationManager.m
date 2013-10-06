@@ -29,12 +29,12 @@
 #define SOSuccessBlockWithJSONOperation                                            \
     ^(AFHTTPRequestOperation *operation, id responseObject) {                      \
         if (success) success((AFHTTPRequestOperation *)operation, responseObject); \
-    }
+}
 
 #define SOFailureBlockWithJSONOperation                                            \
     ^(AFHTTPRequestOperation *operation, NSError *error) {                         \
         if (failure) failure((AFHTTPRequestOperation *)operation, error);          \
-    }
+}
 
 @implementation SOHTTPRequestOperationManager
 
@@ -122,7 +122,7 @@
                  success:(SOHTTPRequestSuccess)success
                  failure:(SOHTTPRequestFailure)failure
 {
-    [self GET:[NSString stringWithFormat:@"service/%ld", serviceID]
+    [self GET:[NSString stringWithFormat:@"service/%d", serviceID]
    parameters:nil
       success:SOSuccessBlockWithJSONOperation
       failure:SOFailureBlockWithJSONOperation];
