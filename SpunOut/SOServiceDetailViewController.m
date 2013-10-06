@@ -69,7 +69,7 @@ static NSString * const kSOServiceDetailCellIdentifier = @"SOServiceDetailCellId
 #pragma mark - Data Flattening
 
 /**
- *  The JSON returned from the server can contain arrays and lists, so in order for it to be displayed
+ *  The JSON returned from the server can contain dicts and arrays, so in order for it to be displayed
  *  correctly in the table view, it needs to be flattened into a single dictionary
  *
  *  Probably could have devised a much nicer solution if I had time but they dont call it a hackathon 
