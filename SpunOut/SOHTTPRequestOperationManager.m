@@ -29,12 +29,12 @@
 #define SOSuccessBlockWithJSONOperation                                            \
     ^(AFHTTPRequestOperation *operation, id responseObject) {                      \
         if (success) success((AFHTTPRequestOperation *)operation, responseObject); \
-}
+    }
 
 #define SOFailureBlockWithJSONOperation                                            \
     ^(AFHTTPRequestOperation *operation, NSError *error) {                         \
         if (failure) failure((AFHTTPRequestOperation *)operation, error);          \
-}
+    }
 
 @implementation SOHTTPRequestOperationManager
 
